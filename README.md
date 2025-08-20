@@ -44,10 +44,8 @@ The "Splitter" case version has space to install a **GNSS splitter**, allowing y
 > 🛠️ Important: Be sure to use an **active splitter** with power passthrough if your antenna needs voltage.
 
 ## 📷 Preview
-
-*(Add image here, e.g. `preview.jpg`)*  
-You can upload it and include like this:  
-`![Preview](./preview.jpg)`
+  
+`![Preview](https://github.com/airtkey/onominer-raspi-version/blob/main/IMG_20250618_121334.jpg)`
 
 ## 🔗 Related Links
 
