@@ -45,7 +45,7 @@ The "Splitter" case version has space to install a **GNSS splitter**, allowing y
 
 ## 📷 Preview
   
-`![Preview](https://github.com/airtkey/onominer-raspi-version/blob/main/IMG_20250618_121334.jpg)`
+(https://github.com/airtkey/onominer-raspi-version/blob/main/IMG_20250618_121334.jpg)
 
 ## 🔗 Related Links
 
