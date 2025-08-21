@@ -22,6 +22,47 @@ It contains all required components for:
 - cabling and power
 - optional splitter setup
 
+## 🚀 Installation Guide
+
+This case is part of a DIY GNSS miner setup. Here's how to set up the software on your Raspberry Pi (or similar device):
+
+### 1. Flash the OS
+Download and flash **Raspberry Pi OS (Lite)** to your microSD card using [Raspberry Pi Imager](https://www.raspberrypi.com/software/).  
+Enable SSH and Wi-Fi before booting (you can create an empty `ssh` file and a `wpa_supplicant.conf` in the boot partition).
+
+### 2. Connect via SSH
+Insert the SD card into your Raspberry Pi and power it up.  
+Then connect using an SSH client like **PuTTY**:
+
+Default credentials (recommended to change later):
+Username: admin
+Password: admin
+
+### 3. Update and Reboot
+
+Run the following commands:
+
+sudo apt update
+sudo apt upgrade
+sudo reboot
+
+### 4. Connect Your GNSS Receiver
+
+Once the Pi has rebooted, connect your Unicore, Bynav, or Septentrio GNSS receiver via USB.
+
+### 5. Install the ELT_RTKBase Software
+
+Open a terminal (ssh with putty) on the Pi and run two times:
+
+"wget https://github.com/GNSSOEM/ELT_RTKBase/raw/main/install.sh
+chmod +x install.sh
+./install.sh"
+
+
+The script will install the required software and drivers, and start the dashboard (usually accessible at http://raspberrypi.local:3000).
+
+💡 After installation, you can configure your receiver and connect it to a network like Onocoy directly from the web dashboard.
+
 ## 🖨️ Print Instructions
 
 - File format: `.stl`
@@ -52,7 +93,6 @@ The "Splitter" case version has space to install a **GNSS splitter**, allowing y
 - [Onocoy Network](https://onocoy.com)
 - [UM980 Base Setup (ELT_RTKBase)](https://github.com/GNSSOEM/ELT_RTKBase)
 
-## 📬 Contact
 
 ## 📬 Contact
 
